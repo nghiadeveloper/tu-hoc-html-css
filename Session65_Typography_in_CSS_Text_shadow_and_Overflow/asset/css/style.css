@@ -1,0 +1,23 @@
+h1 {
+    margin: 40px;
+    
+    /* Bóng đổ text */
+    /* text-shadow: ngang, dọc, blur, màu */
+    text-shadow: 0px -20px 0px rgba(255, 0, 0, 0.324);
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    /* Tạo thanh cuộn: luôn hiển thị vùng thanh cuốn */
+    overflow: scroll;
+    /* Ẩn nội dung: khi nội dung vượt box chứa */
+    overflow: hidden;
+    /* Thuộc tính mặc định: hiển thị nội dung kể cả vượt box chứa */
+    overflow: visible;
+
+    /* 1. Nếu nội dung ngắn → Không có scroll bar
+    2. Nếu nội dung vượt box chứa → Tự động sinh ra scroll bar */
+    overflow: auto;
+}

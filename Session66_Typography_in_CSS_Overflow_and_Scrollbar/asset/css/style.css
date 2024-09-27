@@ -1,0 +1,31 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: auto;
+    /* điều chỉnh cách trình duyệt xử lý sự kiện "overscrolling", tức là khi người dùng cuộn trang đến khi không còn nội dung để cuộn nữa */
+    overscroll-behavior: contain;
+}
+
+/* CUSTOM SCROLLBAR CSS - Nguồn W3 School */
+/* width */
+.box::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track {
+    background: rgba(172, 95, 223, 0.47);
+    border-radius: 5px;
+}
+
+/* Handle */
+.box::-webkit-scrollbar-thumb {
+    background: #ee0707;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover {
+    background: #e700f3;
+}

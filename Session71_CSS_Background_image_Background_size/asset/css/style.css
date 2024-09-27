@@ -1,0 +1,25 @@
+.box {
+    width: 400px;
+    height: 100px;
+    border: 4px dotted red;
+    background-image: url(./bg/dog.jpg);
+
+    /* background-size: contain
+    - Ảnh vừa khung hình
+    - Giữ nguyên tỉ lệ ảnh
+    - Không bị mất ảnh
+    - Nếu còn khoảng trống, ảnh sẽ bị lặp lại */
+    background-size: contain;
+
+    /* background-size: cover;
+    - Ảnh vừa khớp khung hình
+    - Có thể mất 1 phần ảnh
+    - Giữ nguyên tỉ lệ ảnh (không bị méo)
+    - Ảnh sẽ không bị lặp lại */
+    background-size: cover;
+    
+    background-size: 200px;
+    background-size: 100%;
+    background-size: 100% 100%;
+    background-size: 200px 200px;
+}

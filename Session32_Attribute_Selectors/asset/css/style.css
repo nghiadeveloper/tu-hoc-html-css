@@ -1,0 +1,46 @@
+/* a[href] {
+    color: blue;
+} */
+
+a[target="_blank"] {
+    color: palevioletred;
+}
+
+p[href] {
+    color: blue;
+}
+
+/* ------------------------------------------------ */
+
+/* Chọn tất cả các thuộc tính title có chứa từ nghiasoftware.com trong giá trị */
+/* [title~="nghiasoftware.com"] {
+    color: palevioletred;
+} */
+
+
+
+/* Chọn tất cả các thuộc tính title có chứa chuỗi nghiasoftware trong giá trị */
+/* [title*="nghiasoftware"] {
+    color: palevioletred;
+} */
+
+
+
+/* Chọn tất cả các thuộc tính title có có từ duy nhất bắt đầu bằng từ trang-chủ trong giá trị */
+/* [title|="nghiasoftware"] {
+    color: palevioletred;
+} */
+
+
+
+/* Chọn tất cả các thuộc tính title bắt đầu bằng từ pic (không quan tâm space đằng sau) */
+/* [title^="pic"] {
+    color: palevioletred;
+} */
+
+
+
+/* Chọn tất cả các thuộc tính title kết thúc bằng từ ký tự 1 */
+[title$="1"] {
+    color: palevioletred;
+}

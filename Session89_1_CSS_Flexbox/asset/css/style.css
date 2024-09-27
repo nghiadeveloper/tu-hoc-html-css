@@ -1,0 +1,14 @@
+* {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    background-color: cyan;
+    /* các phần tử co cách nhau 1 khoảng là 40px */
+    gap: 40px;
+}
+
+.box {
+    background-color: blue;
+}

@@ -1,0 +1,47 @@
+/* first-line: Chọn dòng đầu tiên các thẻ <p> */
+p::first-line {
+    color: red;
+}
+
+span {
+    display: inline;
+}
+
+span::first-line {
+    color: blue;
+    background-color: yellow;
+}
+
+/* first-letter: Chọn chữ cái đầu tiên các thẻ <p> */
+p::first-letter {
+    font-size: 40px;
+    color: blue;
+}
+
+/* selection: Chọn phần tử vùng đang được bôi đen */
+::selection {
+    background-color: brown;
+    color: #fff;
+}
+
+/* Chọn các điểm đánh dấu của các phần từ <li> */
+li::marker {
+    font-size: 40px;
+    color: red;
+}
+
+/* before: Thêm phần tử vào đằng trước class box */
+.box::before {
+    content: "Em ở đằng trước nè";
+}
+
+/* after: Thêm phần tử vào đằng sau class box */
+.box::after {
+    display: inline-block;
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+    border-radius: 999px;
+    color: red;
+}

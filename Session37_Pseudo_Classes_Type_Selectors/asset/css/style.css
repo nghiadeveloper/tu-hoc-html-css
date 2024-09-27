@@ -1,0 +1,36 @@
+/* Chọn các thẻ <p> xuất hiện đầu tiên trong thẻ cha */
+/* p:first-of-type {
+    color: blue;
+    font-size: 30px;
+} */
+
+
+
+/* Chọn các thẻ <p> xuất hiện cuối cùng trong thẻ cha */
+/* p:last-of-type {
+    color: pink;
+    font-size: 40px;
+} */
+
+
+
+/* Chọn các thẻ <p> xuất hiện thứ n trong thẻ cha */
+/* p:nth-of-type(2) {
+    color: red;
+    font-size: 30px;
+} */
+
+
+
+/* Chọn các thẻ <p>xuất hiện thứ n trong thẻ cha, tính từ cuối lên */
+/* p:nth-last-of-type(2) {
+    color: blue;
+    font-size: 40px;
+} */
+
+
+/* Chọn các thẻ <p> xuất hiện duy nhất trong thẻ cha */
+p:only-of-type {
+    color: blue;
+    font-size: 40px;
+}

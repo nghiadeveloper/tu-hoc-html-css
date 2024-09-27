@@ -1,0 +1,17 @@
+p {
+    background-color: yellow;
+    /* trạng thái mặc định */
+    white-space: normal; 
+    /* không xuống dòng (kể cả chạm tới lề) */
+    white-space: nowrap; 
+    /* giữ nguyên định dạng code, giống thẻ pre */
+    white-space: pre;
+    /* giữ định dạng theo line (enter) */
+    white-space: pre-line;
+    /* giữ nguyên định dạng code */
+    white-space: pre-wrap; 
+
+    /* Khi đoạn text hoặc link dài, người dùng nhập liền nhau thì có thể gây vỡ giao diện vì text không xuống dòng */
+    /* Văn bản tự động xuống dòng khi tới giới hạn */
+    word-break: break-all;
+}

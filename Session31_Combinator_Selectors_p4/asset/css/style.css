@@ -1,0 +1,23 @@
+/* Chọn duy nhất thẻ <h2> đứng sát sau thẻ <h1> */
+/* h1 + h2 {
+    color: red;
+}
+
+.demo + h3 {
+    color: blue;
+}
+
+.demo.demo2 + h3 {
+    color: blueviolet;
+} */
+
+/*------------------------------------------------------*/
+
+/* Chọn tất cả thẻ <h3> đứng sau thẻ <h1> */
+h1~h3 {
+    color: blue;
+}
+
+div~div {
+    color: red;
+}

@@ -1,0 +1,8 @@
+/* Chọn tất cả các thẻ <p> là con trực tiếp của thẻ <div> */
+div > p { 
+    color: blue;
+}
+
+block p {
+    color: red;
+}

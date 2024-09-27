@@ -1,0 +1,16 @@
+img {
+    /* chiều rộng khung nhìn */
+    width: 300px;
+
+    /* con trỏ chuột */
+    cursor: pointer;
+
+    /* chiếm diện tích và có thể click vào được */
+    opacity: 1;
+
+    /* chiếm diện tích nhưng không click vào được */
+    /* visibility: hidden; */
+
+    /* không chiếm diện tích và không click vào được */
+    /* display: none; */
+}

@@ -1,0 +1,25 @@
+strong {
+    /* bỏ gạch chân */
+    text-decoration: none; 
+    /* thêm gạch chân */
+    text-decoration: underline;
+    /* thêm gạch ngang */
+    text-decoration: line-through;
+    /* gạch trên đầu */
+    text-decoration: overline;
+    /* vừa gạch trên đầu - vừa gạch giữa */
+    text-decoration: overline line-through;
+    /* định kiểu của dấu gạch - màu sắc - kích thước  */
+    text-decoration: underline dotted blue 10px;
+}
+
+.line {
+    /* thụt lề */
+    text-indent: 40px;
+    /* viết hoa toàn bộ chữ */
+    text-transform: uppercase;
+    /* viết thường toàn bộ chữ */
+    text-transform: lowercase;
+    /* viết hoa chữ cái đầu */
+    text-transform: capitalize;
+}

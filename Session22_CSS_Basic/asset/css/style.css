@@ -1,0 +1,7 @@
+h1,
+p {
+  /* màu sắc */
+  color: rgb(255, 0, 64);
+  /* font chữ */
+  font-style: italic;
+}

@@ -1,0 +1,16 @@
+.container {
+    height: 150px;
+    display: flex;
+    background-color: cyan;
+    flex-direction: column;
+}
+
+.box {
+    width: 30%;
+    /* flex-basis: Set main size item ( lưu ý main size theo trục main axis ) */
+    /* flex-basis: 30%; */
+    background-color: blue;
+    border: 1px solid black;
+    /* Flex-shrink: 0 - không bị co lại | 1 ( default) | 2 | 3 |… Xác định khả năng co lại của item nếu cần */
+    flex-shrink: 3;
+}

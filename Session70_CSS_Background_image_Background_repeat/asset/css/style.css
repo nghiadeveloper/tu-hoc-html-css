@@ -1,0 +1,14 @@
+.box {
+    height: 100vh;
+    background-image: url(../image/lacay.png), url(../image/small.jpg);
+    /* Background không hiển thị */
+    background-image: none;
+    /* Background không lặp lại */
+    background-repeat: no-repeat;
+    /* Background lặp lại trục x */
+    background-repeat: repeat-x; 
+    /* Background lặp lại trục y */
+    background-repeat: repeat-y;
+    /* Background lặp lại mặc định */
+    background-repeat: repeat; 
+}

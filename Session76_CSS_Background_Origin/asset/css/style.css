@@ -1,0 +1,19 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/1.png);
+    border: 50px dotted red;
+    padding: 50px;
+
+    /* background-origin: Xác định gốc bức ảnh đặt ở vị trí nào */
+    /* Default - Gốc ảnh mặc định ở phần padding */
+    background-origin: padding-box;
+    /* Gốc 0,0 của ảnh sẽ ở border */
+    background-origin: border-box;
+    /* Gốc 0,0 của ảnh sẽ ở phần content */
+    /* background-origin: content-box; */
+
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+}

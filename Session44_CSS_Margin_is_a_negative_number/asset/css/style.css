@@ -1,0 +1,17 @@
+.content {
+    background-color: yellow;
+    padding: 40px;
+    display: inline-block /* tìm hiểu thêm trong giáo trình */
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #b4b4b4;
+    margin-left: -70px;
+}
+
+.avatar:first-child{
+    margin-left: 0px;
+}

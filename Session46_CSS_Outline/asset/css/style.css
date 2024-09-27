@@ -1,0 +1,12 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    /* border: 10px solid red; */
+
+    /* Là đường viền bao quanh mép ngoài cùng của đối tượng */
+    outline: 20px solid blue;
+
+    /* định nghĩa đường viền quanh một phần tử theo vị trí chỉ định */
+    outline-offset: 10px;
+    margin: 40px;
+}

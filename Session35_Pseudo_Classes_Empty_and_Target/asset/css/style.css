@@ -1,0 +1,17 @@
+/* Chọn các thẻ <div> không có nội dung */
+.div_elm:empty {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.div_elm {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* Chọn thẻ có id="..." khi trên URL có hash tương ứng. */
+h2:target {
+    color: blue;
+}

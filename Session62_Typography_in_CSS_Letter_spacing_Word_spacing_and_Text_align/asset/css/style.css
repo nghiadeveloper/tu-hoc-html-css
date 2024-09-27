@@ -1,0 +1,23 @@
+/* body {
+    text-align: center;
+} */
+
+p {
+    /* Tăng giảm khoảng cách giữa các ký tự */
+    letter-spacing: -3px;
+    /* Tăng giảm khoảng cách giữa các từ */
+    word-spacing: 50px;
+    /* Căn chữ sang trái - mặc định */
+    text-align: left;
+    /* Căn chữ dàn đều 2 bên */
+    text-align: justify;
+    /* Căn chữ sang phải */
+    text-align: right;
+    /* Căn chữ sang giữa */
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,8 @@
+/* Chọn các thẻ có class=“top" loại trừ thẻ <p> */
+.top:not(p) {
+    color: yellow;
+}
+
+/* .top:not(:first-of-type) {
+    background-color: yellow;
+} */

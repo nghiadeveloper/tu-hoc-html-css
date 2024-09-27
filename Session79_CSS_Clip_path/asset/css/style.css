@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    /* center là ở thuộc tính background position, cover là ở thuộc tính background size */
+    background: url(../image/ava.png) center/cover;
+
+    /* Chip-path:
+    - Tạo 1 vùng cắt, nội dung trong vùng cắt sẽ được hiển thị 
+    - Nội dung ngoài vùng cắt sẽ bị ẩn đi */
+
+    /* Cắt hình tròn - dùng %*/
+    /* Dịch tâm dường tròn theo x, y */
+    clip-path: circle(50% at 40% 70%);
+    /* Mặc định tâm đường tròn trùng với tâm của ảnh*/
+    clip-path: circle(100px);
+
+    /* Cắt hình chữ nhật */
+    /* Cắt đều 4 cạnh */
+    clip-path: inset(20px);
+    /* trên - dưới / trái - phải */
+    clip-path: inset(20px 50px);
+    /* trên / trái - phải / dưới */
+    clip-path: inset(20px 50px 80px);
+    /* trên - phải - dưới - trái */
+    clip-path: inset(20px 50px 80px 30px);
+    /* round: Thêm bo góc*/
+    clip-path: inset(20px round 15px 50px 80px 15px);
+
+    /* Cắt hình đa giác */
+    /* clip-path: polygon(x y, x y, x y, x y); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    border-radius: 15px;
+    /* 
+    Tính toán bán kính của hình tròn: 
+    radius = (50% * max(width, height))
+    Xác định giá trị của max(width, height) từ kích thước đã cho. 
+    Trong trường hợp này: 
+    .box có width: 200px và height: 500px, 
+    vì vậy max(width, height) = 500px.
+    Tiến hành tính toán bán kính của hình tròn: 
+    radius = (50% * 500px) = 250px
+    Vậy, trong trường hợp này, giá trị 50% tương ứng với 250px. */
+}
