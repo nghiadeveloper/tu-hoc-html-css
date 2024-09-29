@@ -1,0 +1,70 @@
+/* 
+    - grid-row-start: vị trí bắt đầu 
+    - grid-row-end: vị trí kết thúc
+*/
+
+/* 
+    Cú pháp viết tắt 1:
+    - grid-row là viết tắt của grid-row-start và grid-row-end.
+    - grid-column là viết tắt của grid-column-start và grid-column-end.
+    - Nếu một giá trị được cung cấp, nó sẽ chỉ định grid-row-start / grid-column-start.
+    - Ví dụ: 
+        + grid-row: 1 / 3;
+        + grid-column: 1 / 3;
+
+    Cú pháp viết tắt 2: grid-area
+    - grid-area là viết tắt của grid-row-start, grid-column-start, grid-row-end và grid-column-end.
+    - Cú pháp: grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+    - Ví dụ: grid-area: 1 / 2 / 3 / 4;
+*/
+
+.box1 {
+    background: yellow;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box2 {
+    background: rgb(79, 79, 23);
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.box3 {
+    background: rgb(48, 89, 143);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box4 {
+    background: rgb(26, 108, 196);
+}
+
+.box5 {
+    background: rgb(167, 111, 23);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box6 {
+    background: rgb(30, 45, 105);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    background: #ccc;
+    display: inline-grid;
+    gap: 15px;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
