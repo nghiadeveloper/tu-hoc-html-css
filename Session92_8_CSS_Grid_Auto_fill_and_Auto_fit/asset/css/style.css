@@ -1,0 +1,22 @@
+/* 
+    - auto-fill, auto-fit: Dùng để xác định cách grid items (phần tử bên trong grid) được tự
+động xếp trong grid container khi không có đủ vị trí (được xác định trước) 
+    - auto-fill: Khi màn hình đủ lớn, sẽ tự động sinh ra các grid cell trống
+    - auto-fit: Khi màn hình đủ lớn, sẽ tự lấp đầy
+*/
+
+.container {
+    display: grid;
+    gap: 3px;
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+    background: blue;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
