@@ -1,0 +1,59 @@
+/* CSS Transform cho phép chúng ta thay đổi hình dạng, kích thước và vị trí của các phần tử trên trang web */
+
+/*
+    Lưu ý 1: Có thể dùng kết hợp nhiều thuộc tính
+    Lưu ý 2: Transform không đẩy được các phần tử xung quanh
+    Lưu ý 3: Có thể cần thêm prefix nếu dùng cho các trình duyệt cũ
+*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    background: red;
+    color: #fff;
+    font-size: 3rem;
+    /* 1. Rotate (Xoay): Bằng cách sử dụng rotate, chúng ta có thể xoay phần tử một góc xác định */
+    /* deg: độ */
+    /* transform: rotate(45deg); */
+    /* Có thể gõ tắt */
+    /* rotate: 45deg; */
+
+    /* 2. Scale (Co giãn): Sử dụng scale để co giãn phần tử theo chiều ngang và chiều dọc. */
+    /* nhập 2 đối số */
+    /* transform: scale(1.5, 0.5); */
+    /* nhập 1 đối số thì co giãn cả 2 chiều */
+    /* transform: scale(1.5); */
+    /* Có thể gõ tắt */
+    /* scale: 1.5; */
+
+    /* 3. Skew (Biến dạng): Sử dụng để nghiêng phần tử theo 2 chiều */
+    /* nghiêng cạnh trái, phải (theo chiều X) */
+    /* transform: skewX(20deg); */
+    /* hoặc */
+    /* transform: skew(20deg); */
+    /* nghiêng cạnh trên, dưới (theo chiều Y) */
+    /* transform: skewY(20deg); */
+    /* nghiêng cả X, Y: skew(X, Y) */
+    /* transform: skew(20deg, 10deg); */
+
+    /* 4. Translate (dịch chuyển): Sử dụng để di chuyển một phần tử theo chiều ngang và chiều dọc */
+    /* Dịch theo X cách 1*/
+    /* transform: translate(50px); */
+    /* Dịch theo X cách 2*/
+    /* transform: translateX(50px); */
+    /* Dịch theo X cách 3 */
+    /* translate: 50px; */
+
+    /* Dịch theo Y */
+    /* transform: translateY(50px); */
+
+    /* Dịch cả X, Y */
+    /* transform: translate(50px, 30px); */
+    /* Cách 2 */
+    /* translate: 50px 30px; */
+
+    /* 5. Kết hợp nhiều thuộc tính */
+    /* vừa phóng to, vừa xoay */
+    transform: scale(2) rotate(25deg);
+}
